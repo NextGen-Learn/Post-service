@@ -17,7 +17,7 @@ venv.bak/
 
 # Ignore IDE and editor settings
 .idea/
-.vscode/
+
 *.swp
 *.swo
 
@@ -42,5 +42,3 @@ local_settings.py
 # Ignore Docker-related files
 docker-compose.override.yml
 .env.docker
-
-.vscode/
