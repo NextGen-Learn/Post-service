@@ -1,8 +1,8 @@
 from django.db import models
 
 class Order(models.Model):
-    customer = models.IntegerField()
-    performer = models.IntegerField()
+    customer = models.IntegerField(blank=False)
+    performer = models.IntegerField(blank=False)
     requirements = models.JSONField()
     notes = models.TextField(blank=True)
     matched_tutors = models.JSONField(blank=True, default=list)
